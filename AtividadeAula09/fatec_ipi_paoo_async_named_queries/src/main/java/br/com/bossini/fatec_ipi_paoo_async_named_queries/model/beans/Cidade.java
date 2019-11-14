@@ -1,4 +1,4 @@
-package br.fatec_ipi.fatec_ipi_paoo_springdata.model.beans;
+package br.com.bossini.fatec_ipi_paoo_async_named_queries.model.beans;
 
 import java.io.Serializable;
 
@@ -10,9 +10,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table (name = "tb_cidade")
-@NamedQuery (name = "Aluno.buscarPelaLatitudeEPelaLongitude", query = "SELECT a FROM Aluno a WHERE latitude = :latitude AND longitude = :longitude")
-@NamedQuery (name = "Aluno.buscarPeloNome", query = "SELECT a FROM Aluno a WHERE nome = nome")
-@NamedQuery (name = "Aluno.buscarPeloNomeIgnore", query = "SELECT a FROM Aluno a WHERE lower(nome) = :nome")
+@NamedQuery (name = "Cidade.buscarPelaLatitudeEPelaLongitude", query = "SELECT c FROM Cidade c WHERE c.latitude = :latitude AND c.longitude = :longitude")
+@NamedQuery (name = "Cidade.buscarPeloNome", query = "SELECT c FROM Cidade c WHERE nome = nome")
+@NamedQuery (name = "Cidade.buscarPeloNomeIgnore", query = "SELECT c FROM Cidade c WHERE UPPER(nome) = :nome")
 public class Cidade implements Serializable{
     
 	private static final long serialVersionUID = 1L;

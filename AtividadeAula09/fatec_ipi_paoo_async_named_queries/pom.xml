@@ -8,10 +8,10 @@
 		<version>2.2.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.fatec_ipi</groupId>
-	<artifactId>fatec_ipi_paoo_springdata </artifactId>
+	<groupId>br.com.bossini</groupId>
+	<artifactId>fatec_ipi_paoo_async_named_queries</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fatec_ipi_paoo_springdata </name>
+	<name>fatec_ipi_paoo_async_named_queries</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
